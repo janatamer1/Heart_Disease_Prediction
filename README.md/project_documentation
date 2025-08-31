@@ -1,0 +1,37 @@
+# Heart Disease Prediction - Machine Learning Pipeline
+
+## Overview
+This project implements a **full ML pipeline** on the UCI Heart Disease dataset to predict heart disease risk. It includes data preprocessing, feature selection, dimensionality reduction (PCA), model training and evaluation, and deployment via Streamlit.
+
+## Objectives
+- Clean and preprocess data (handle missing values, encode, scale features)
+- Perform feature selection and dimensionality reduction
+- Train supervised models: Logistic Regression, Decision Trees, Random Forest, SVM
+- Apply unsupervised learning: K-Means, Hierarchical Clustering
+- Optimize models using GridSearchCV and RandomizedSearchCV
+- share on GitHub
+
+## Tools & Libraries
+- **Python:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+- **Dimensionality Reduction & Feature Selection:** PCA, RFE, Chi-Square Test
+- **Deployment:** Streamlit, Ngrok
+- **Version Control:** GitHub
+
+## Project Structure
+Heart_Disease_Project/
+├─ data/ # Dataset for visualization.
+├─ models/ # Trained model (.pkl)
+├─ scripts/ # Preprocessing, training, Streamlit app
+├─ notebooks/ # EDA, model training, visualization
+├─ requirements.txt # Dependencies
+└─ README.md # Project documentation
+
+
+## Usage
+1. Clone the repository:  
+   `git clone <repo-url>`
+2. Install dependencies:  
+   `pip install -r requirements.txt`
+3. Run the app:  
+   `streamlit run scripts/streamlit_app.py`
+
